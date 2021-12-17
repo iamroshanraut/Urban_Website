@@ -202,11 +202,61 @@ body {
   border-radius: 2px;
 }
 
-/* blogtwo starts here  */
-
-
-
 /* blogtwo ends here  */
+
+/* team section starts here  */
+
+.team{
+  width: 100%;
+}
+
+.team_main{
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.team_main h2{
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.team_main p{
+  color: gray;
+}
+
+.team_member{
+  width: 30%;
+  float: left;
+  padding: 30px 5px;
+  margin-bottom: 20px ;
+}
+
+.team_member img{
+  width: 80%;
+  border-radius: 100%;
+}
+
+.team_member a{
+  font-size: 15px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #3498db;
+  font-family: "Scope One", serif;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 0.5px;
+  border-radius: 2px;
+}
+
+.addmargin{
+  margin-right: 1%;
+}
+
+/* team section ends here  */
+
 
 /* Media Query Starts here  */
 
@@ -286,5 +336,34 @@ body {
   .text_section a{
     padding: 6px 12px;
     font-size: 15px;
+  }
+
+  .team_main{
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  .team_main h2{
+    font-size: 25px;
+  }
+
+  .team_member{
+    width: 100%;
+    margin: 0;
+  }
+
+  .team_member img{
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  .team_member p{
+    margin-bottom: 40px;
+  }
+
+  .addmargin{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
   }
 }
