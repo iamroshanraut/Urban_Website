@@ -87,20 +87,17 @@ body {
 
 .blogone{
   width: 100%;
-  border: 2px solid red ;
   padding: 50px 0;
 }
 
 .blogone_main{
   max-width: 1000px;
-  border: 2px solid green;
   margin: 0 auto;
 }
 
 .img_div{
   width: 30%;
   float: left;
-  border: 2px solid greenyellow;
   text-align: center;
   padding: 37px 0;
 }
@@ -116,7 +113,6 @@ body {
 .txt_section{
   width: 65%;
   float: left;
-  border: 2px solid orangered;
   padding: 35px 10px;
 }
 
@@ -146,9 +142,10 @@ body {
 
 /* blogone sectione ends here */
 
+/* blogtwo sectione ends here */
+
 .blogtwo{
   width: 100%;
-  border: 2px solid red ;
   padding: 50px 0;
   background-color: #3498db;
   color: #fff;
@@ -156,14 +153,12 @@ body {
 
 .blogtwo_main{
   max-width: 1000px;
-  border: 2px solid green;
   margin: 0 auto;
 }
 
 .imgs_div{
   width: 30%;
   float: left;
-  border: 2px solid greenyellow;
   text-align: center;
   padding: 37px 0;
 }
@@ -179,7 +174,6 @@ body {
 .text_section{
   width: 65%;
   float: left;
-  border: 2px solid orangered;
   padding: 35px 10px;
 }
 
@@ -199,7 +193,7 @@ body {
 .text_section a{
   font-size: 15px;
   padding: 10px 20px;
-  color: #fff;
+  color: #3498db;
   background-color: #fff;
   font-family: "Scope One", serif;
   font-weight: 600;
@@ -232,5 +226,65 @@ body {
 
   .navigation {
     padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .img_div{
+    width: 100%;
+  }
+
+  .img_div img{
+    width: 60%;
+    
+  }
+
+  .txt_section{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+  }
+
+  .txt_section h3{
+    font-size: 22 px;
+  }
+
+  .blogone_main{
+    padding: 0 20px;
+  }
+
+  .txt_section a{
+    padding: 6px 12px;
+    font-size: 15px;
+  }
+
+  .imgs_div{
+    width: 100%;
+  }
+
+  .imgs_div img{
+    width: 60%;
+    
+  }
+
+  .text_section{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+  }
+
+  .text_section h3{
+    font-size: 22 px;
+  }
+
+  .blogtwo_main{
+    padding: 0 20px;
+  }
+
+  .text_section a{
+    padding: 6px 12px;
+    font-size: 15px;
   }
 }
