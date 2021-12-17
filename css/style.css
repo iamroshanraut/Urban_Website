@@ -208,6 +208,7 @@ body {
 
 .team{
   width: 100%;
+  background-color: rgb(243, 243, 243);
 }
 
 .team_main{
@@ -237,6 +238,11 @@ body {
 .team_member img{
   width: 80%;
   border-radius: 100%;
+  margin-bottom: 30px;
+}
+
+.team_member p{
+  margin-bottom: 40px;
 }
 
 .team_member a{
@@ -256,6 +262,33 @@ body {
 }
 
 /* team section ends here  */
+
+
+/* footer starts here  */
+
+.footer{
+  width: 100%;
+
+}
+
+.footer_main{
+  max-width: 1000px;;
+  margin: 0 auto;
+  text-align: center;
+  color: grey;
+  padding: 30px 0;
+}
+
+.footer_main i{
+  font-size: 22px;
+  padding: 5px;
+}
+
+.footer_main p{
+  font-size: 13px;
+}
+
+/* footer ends here */
 
 
 /* Media Query Starts here  */
